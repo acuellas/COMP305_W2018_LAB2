@@ -122,6 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 692696559}
   - component: {fileID: 692696558}
+  - component: {fileID: 692696561}
+  - component: {fileID: 692696560}
   m_Layer: 0
   m_Name: buttongreen
   m_TagString: Untagged
@@ -186,6 +188,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &692696560
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 692696557}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.65, y: 0.64}
+    newSize: {x: 0.65, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.65, y: 0.64}
+  m_EdgeRadius: 0
+--- !u!114 &692696561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 692696557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4716008c11359274cbace69dc361708c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Adriana1: {fileID: 846838913}
+  firstImage: {fileID: 21300000, guid: b99341111bd23a94e85fdcb550217651, type: 3}
+  secondImage: {fileID: 21300000, guid: 0d29f6b1e34659d4fade2d8d27c71129, type: 3}
+  thirdImage: {fileID: 21300000, guid: 67c653914fbbfba479a0fdea5ca91015, type: 3}
+  buttonNumber: 2
 --- !u!1 &846838913
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,6 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846838915}
   - component: {fileID: 846838914}
+  - component: {fileID: 846838916}
   m_Layer: 0
   m_Name: adriana1
   m_TagString: Untagged
@@ -259,6 +303,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &846838916
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846838913}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1030740259
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +332,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1030740261}
   - component: {fileID: 1030740260}
+  - component: {fileID: 1030740263}
+  - component: {fileID: 1030740262}
   m_Layer: 0
   m_Name: buttonorange
   m_TagString: Untagged
@@ -332,6 +398,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1030740262
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030740259}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.65, y: 0.64}
+    newSize: {x: 0.65, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.65, y: 0.64}
+  m_EdgeRadius: 0
+--- !u!114 &1030740263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030740259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4716008c11359274cbace69dc361708c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Adriana1: {fileID: 846838913}
+  firstImage: {fileID: 21300000, guid: b99341111bd23a94e85fdcb550217651, type: 3}
+  secondImage: {fileID: 21300000, guid: 0d29f6b1e34659d4fade2d8d27c71129, type: 3}
+  thirdImage: {fileID: 21300000, guid: 67c653914fbbfba479a0fdea5ca91015, type: 3}
+  buttonNumber: 3
 --- !u!1 &1041553423
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,6 +529,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2098187690}
   - component: {fileID: 2098187689}
+  - component: {fileID: 2098187692}
+  - component: {fileID: 2098187691}
   m_Layer: 0
   m_Name: buttonpurple
   m_TagString: Untagged
@@ -486,3 +595,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2098187691
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098187688}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.65, y: 0.64}
+    newSize: {x: 0.65, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.65, y: 0.64}
+  m_EdgeRadius: 0
+--- !u!114 &2098187692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098187688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4716008c11359274cbace69dc361708c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Adriana1: {fileID: 846838913}
+  firstImage: {fileID: 21300000, guid: b99341111bd23a94e85fdcb550217651, type: 3}
+  secondImage: {fileID: 21300000, guid: 0d29f6b1e34659d4fade2d8d27c71129, type: 3}
+  thirdImage: {fileID: 21300000, guid: 67c653914fbbfba479a0fdea5ca91015, type: 3}
+  buttonNumber: 1
